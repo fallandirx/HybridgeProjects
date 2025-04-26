@@ -1,7 +1,7 @@
 ﻿import pygame
 from Constants import CHARACTER_SIZE
 
-class CharacterBase(pygame.sprite.Sprite):
+class SpriteBase(pygame.sprite.Sprite):
     
     def __init__(self, image_path, speed, character_health):
         super().__init__() # Inicializa el ctor de Sprite
