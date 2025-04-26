@@ -210,8 +210,6 @@ while playGame:
     clock.tick(FPS)
 
 
-# QUite la salida automatica para que el usuario vea el mensaje de despedida jeje
-
 # Salir
 # pygame.quit()
 # sys.exit()

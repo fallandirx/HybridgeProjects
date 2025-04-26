@@ -26,6 +26,28 @@ class SpriteBase(pygame.sprite.Sprite):
     # Movimiento automatico del character
     def update(self):
         pass
+
+    @property
+    def speed(self):
+        return self._speed # Cambiamos a un getter, ya que estamos utilizando un guion bajo
+
+    @speed.setter
+    def speed(self, value): # PErsonalizamos el setter
+        if value < 0:
+            print("No se puede utilizar una velocidad negativa. Estableciendo en 0")
+            value = 0
+        else:
+            self._speed = float(value)
         
-        
+    @property
+    def character_health(self):
+        return self._character_health
+
+    @character_health.setter
+    def character_health(self, value): # PErsonalizamos el setter
+        if value < 0:
+            print("No se puede utilizar una vida negativa. Estableciendo en 0")
+            value = 0
+        else:
+            self._character_health = int(value)
         
