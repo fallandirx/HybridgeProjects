@@ -5,14 +5,14 @@ Esta calculadora es bastante sencilla y cumple requerimientos básicos de una ca
 
 ## Contenido:
 
-*main.py: Archivo principal, ejecuta el menú y coordina las operaciones.
-*sumar.py: Contiene la función para sumar dos números.
-*resta.py: Contiene la función para restar dos números.
-*multiplicacion.py: Contiene la función para multiplicar dos números.
-*dividir.py: Contiene la función para dividir dos números.
-*suma_avanzada.py: Contiene la función para sumar una lista indefinida de números.
-*readme.md: (Este archivo) Datos básicos del software.
-*LICENSE: Contiene la información de la licencia.
+-main.py: Archivo principal, ejecuta el menú y coordina las operaciones.
+-sumar.py: Contiene la función para sumar dos números.
+-resta.py: Contiene la función para restar dos números.
+-multiplicacion.py: Contiene la función para multiplicar dos números.
+-dividir.py: Contiene la función para dividir dos números.
+-suma_avanzada.py: Contiene la función para sumar una lista indefinida de números.
+-readme.md: (Este archivo) Datos básicos del software.
+-LICENSE: Contiene la información de la licencia.
 
 ## Instrucciones para el uso de este software:
 
